@@ -1,0 +1,14 @@
+{
+  "worker_image": "REPLACE_WITH_IMAGE_DIGEST",
+  "gateway_image": "REPLACE_WITH_IMAGE_DIGEST",
+  "model_revision": "REPLACE_WITH_MODEL_COMMIT",
+  "gpu_inventory": "REPLACE_WITH_NVIDIA_SMI_OUTPUT_AND_GPU_UUIDS",
+  "worker_args": "REPLACE_WITH_ACTUAL_COMMAND_OR_NOMAD_ALLOCATION_CONFIG",
+  "gateway_args": "REPLACE_WITH_ACTUAL_COMMAND_OR_NOMAD_ALLOCATION_CONFIG",
+  "nomad_version": "REPLACE",
+  "consul_version": "REPLACE",
+  "driver_version": "REPLACE",
+  "client_host": "REPLACE",
+  "topology_output": "REPLACE_WITH_NVIDIA_SMI_TOPO_M_OUTPUT",
+  "notes": "Record power limits, PCIe lanes, host RAM/CPU and other active workloads."
+}

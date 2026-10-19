@@ -1,0 +1,8 @@
+# This is a Nomad var-file example; copy as lab.vars.hcl (not a Terraform file).
+datacenters = ["REPLACE_WITH_NOMAD_DC"]
+worker_image = "lmsysorg/sglang@sha256:REPLACE_WITH_TESTED_DIGEST"
+model_revision = "REPLACE_WITH_HUGGING_FACE_COMMIT"
+replicas = 2
+gpu_count = 1
+tp_size = 1
+pool = "chat"

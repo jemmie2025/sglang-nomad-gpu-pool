@@ -1,0 +1,5 @@
+datacenters = ["REPLACE_WITH_NOMAD_DC"]
+gateway_image = "lmsysorg/sgl-model-gateway@sha256:REPLACE_WITH_TESTED_DIGEST"
+discovery_image = "YOUR_INTERNAL_REGISTRY/sglang-discovery@sha256:REPLACE_WITH_DIGEST"
+consul_url = "http://REPLACE_WITH_ROUTABLE_CONSUL_AGENT:8500"
+policy = "cache_aware"
